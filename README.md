@@ -1,4 +1,4 @@
-# Keyed-AI# KeyedVault AI Layer
+#  KeyedVault AI Layer
 ### RAG-нотариус · AI-адвокат · CLIP-антиплагиат
 
 Три AI-модуля поверх существующего Spring Boot + Python стека.  
