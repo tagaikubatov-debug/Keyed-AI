@@ -1,0 +1,10 @@
+# ============================================================
+# ДОБАВЬТЕ ЭТИ СТРОКИ В КОНЕЦ application.properties
+# ============================================================
+
+# URL Python AI-движка (rag_notary_engine.py)
+# Если запускаете на другом хосте/порту — измените здесь
+ai.engine.url=http://localhost:8001
+
+# Jackson — для корректного отображения Map<String,Object> в JSON
+spring.jackson.serialization.indent-output=true

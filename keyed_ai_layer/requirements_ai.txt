@@ -1,0 +1,30 @@
+# KeyedVault AI Layer — Python зависимости
+# Установка: pip install -r requirements_ai.txt
+#
+# Примечание: torch устанавливается автоматически как зависимость transformers.
+# Если нужен GPU — замените torch на torch+cu118 (CUDA 11.8).
+
+# Web-фреймворк для AI-сервиса
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# Anthropic SDK (Claude API)
+anthropic>=0.34.0
+
+# Векторизация текста для RAG
+sentence-transformers>=3.0.0
+
+# CLIP — визуальный антиплагиат
+transformers>=4.44.0
+torch>=2.3.0
+torchvision>=0.18.0
+
+# Изображения
+Pillow>=10.4.0
+
+# Математика
+numpy>=1.26.0
+
+# Существующие зависимости проекта (уже должны быть)
+opencv-python>=4.10.0
+imagehash>=4.3.1
